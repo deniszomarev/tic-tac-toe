@@ -1,0 +1,83 @@
+body {
+  background-color: #226293;
+  text-align: center;
+}
+
+h1 {
+  color: yellow;
+  font-family: "Pacifico", cursive;
+  margin-bottom: 100px;
+}
+
+.game-plate {
+  display: grid;
+  grid-template-columns: 96px 96px 96px;
+  grid-template-rows: 96px 96px 96px;
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  background-color: yellow;
+  column-gap: 6px;
+  row-gap: 6px;
+  z-index: 1;
+}
+
+.cell {
+  background-color: #226293;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: yellow;
+  font-family: "Pacifico";
+  font-size: 70px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+footer a {
+  text-decoration: none;
+  color: yellow;
+  margin: 0 20px;
+  font-family: "Pacifico";
+}
+footer span {
+  color: yellow;
+  font-family: "Pacifico";
+}
+
+.results {
+  height: 100px;
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+}
+.results span {
+  color: yellow;
+  font-family: "Pacifico";
+  font-size: 25px;
+}
+
+table {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  color: yellow;
+  font-family: "Shadows Into Light", cursive;
+}
+
+table,
+th,
+td {
+  border: 1px yellow solid;
+  border-collapse: collapse;
+  padding: 2px 5px 2px 5px;
+  height: 31px;
+  min-width: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
